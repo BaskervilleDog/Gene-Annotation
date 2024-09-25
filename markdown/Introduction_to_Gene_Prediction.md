@@ -17,6 +17,13 @@ alt="The NCBI Eukaryotic Genome Annotation Pipeline" />
 Pipeline</figcaption>
 </figure>
 
+<figure>
+<img src="images/Pipeline_sm_ncRNA_CAGE_80pct-02.png"
+alt="The NCBI Eukaryotic Genome Annotation Pipeline" />
+<figcaption aria-hidden="true">The NCBI Eukaryotic Genome Annotation
+Pipeline</figcaption>
+</figure>
+
 ------------------------------------------------------------------------
 
 Historically, gene discovery methodologies were predominantly based on

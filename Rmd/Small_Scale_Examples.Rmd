@@ -1,7 +1,9 @@
 ---
 author: "Gianlucca de Urzêda Alves"
 date: "2024-09-25"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 # Homology based approach as example
@@ -180,9 +182,9 @@ Introns are non-coding regions of a gene that are transcribed into RNA but are r
 
     -   Validate the predicted splice sites (donor and acceptor sites) by checking consensus splice signals:
 
-        -   **Donor Sites (5\' splice site):** Usually characterized by the GT sequence at the intron start.
+        -   **Donor Sites (5' splice site):** Usually characterized by the GT sequence at the intron start.
 
-        -   **Acceptor Sites (3\' splice site):** Typically end with AG.
+        -   **Acceptor Sites (3' splice site):** Typically end with AG.
 
     -   Use tools like **NetGene2** or **SplicePort** to score and validate predicted splice sites.
 
@@ -280,9 +282,9 @@ Primer design is a crucial step in various molecular biology techniques, includi
 
     -   Review the suggested primers for key attributes:
 
-        -   **Forward Primer:** Binds to the 5\' end of the target region on the sense strand.
+        -   **Forward Primer:** Binds to the 5' end of the target region on the sense strand.
 
-        -   **Reverse Primer:** Binds to the 3\' end of the target region on the antisense strand.
+        -   **Reverse Primer:** Binds to the 3' end of the target region on the antisense strand.
 
 5.  **Example Primer Output from Primer3:**
 
@@ -294,7 +296,7 @@ Primer design is a crucial step in various molecular biology techniques, includi
 
     -   Use Primer-BLAST to verify that the designed primers are specific to the target sequence and do not amplify unintended regions in the genome.
 
-    -   Input the primers into Primer-BLAST and select the appropriate organism\'s genome for the search.
+    -   Input the primers into Primer-BLAST and select the appropriate organism's genome for the search.
 
     -   Review the results to ensure no significant off-target matches:
 
@@ -476,7 +478,7 @@ Microsatellites, also known as simple sequence repeats (SSRs), are short, repeti
 
 ### Protein Positioning (Subcellular Localization Prediction)
 
-Protein positioning, or subcellular localization prediction, involves determining where a protein resides within a cell, such as the nucleus, mitochondria, cytoplasm, or membrane. Understanding a protein\'s localization is critical for inferring its function and role in cellular processes. This guide will provide a step-by-step approach to predicting the subcellular localization of a protein using computational tools.
+Protein positioning, or subcellular localization prediction, involves determining where a protein resides within a cell, such as the nucleus, mitochondria, cytoplasm, or membrane. Understanding a protein's localization is critical for inferring its function and role in cellular processes. This guide will provide a step-by-step approach to predicting the subcellular localization of a protein using computational tools.
 
 #### **Step 1: Obtain the Protein Sequence**
 

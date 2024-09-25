@@ -2,7 +2,9 @@
 title: "Homology Based Gene Prediction Software List"
 author: "Gianlucca de Urzêda Alves"
 date: "2024-09-25"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 # Homology Based Gene Prediction Softwares List
@@ -10,7 +12,7 @@ output: html_notebook
 ------------------------------------------------------------------------
 
 | Year | Tool Name                                                                 | Publication                                                                                                                                                                                                                                                  | Method                     | Organism               |
-|:-----|:--------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------|:-----------------------|
+|:--------|:--------|:-----------------------------------|:--------|:--------|
 | 1999 | CRITICA (Coding Region Identification Tool Invoking Comparative Analysis) | Badger, J. H., & Olsen, G. J. (1999). CRITICA: Coding region identification tool invoking comparative analysis. Molecular Biology and Evolution, 16(4), 512--524. <https://doi.org/10.1093/oxfordjournals.molbev.a026133>.                                   | Comparative                | Prokaryotes / Archaea  |
 | 2000 | CEM                                                                       | Bafna, V., & Huson, D. H. (2000). The conserved exon method for gene finding. Proceedings. International Conference on Intelligent Systems for Molecular Biology, 8, 3--12.                                                                                  | Comparative genomics       |                        |
 | 2000 | Rosetta                                                                   | Batzoglou, S., Pachter, L., Mesirov, J. P., Berger, B., & Lander, E. S. ([s.d.]). Human and Mouse Gene Structure: Comparative Analysis and Application to Exon Prediction.                                                                                   | Comparative genomics       |                        |
@@ -26,7 +28,7 @@ output: html_notebook
 | 2003 | EvoGene                                                                   | Pedersen, J. S., & Hein, J. (2003). Gene finding with a hidden Markov model of genome structure and evolution. Bioinformatics (Oxford, England), 19(2), 219--227. <https://doi.org/10.1093/bioinformatics/19.2.219>.                                         | Comparative / evolutionary |                        |
 | 2004 | Projector                                                                 | Meyer, I. M., & Durbin, R. (2004). Gene structure conservation aids similarity based gene prediction. Nucleic Acids Research, 32(2), 776--783. <https://doi.org/10.1093/nar/gkh211>.                                                                         | Comparative                |                        |
 | 2005 | TWAIN                                                                     | Majoros, W. H., Pertea, M., & Salzberg, S. L. (2005). Efficient implementation of a generalized pair hidden Markov model for comparative gene finding. Bioinformatics (Oxford, England), 21(9), 1782--1788. <https://doi.org/10.1093/bioinformatics/bti297>. | Comparative                |                        |
-| 2006 | DOGFISH (for \'detection of genomic features in sequence homologies\')    | Carter, D., & Durbin, R. (2006). Vertebrate gene finding from multiple-species alignments using a two-level strategy. Genome Biology, 7(Suppl 1), S6. <https://doi.org/10.1186/gb-2006-7-s1-s6>.                                                             | Comparative                | Vertebrates            |
+| 2006 | DOGFISH (for 'detection of genomic features in sequence homologies')      | Carter, D., & Durbin, R. (2006). Vertebrate gene finding from multiple-species alignments using a two-level strategy. Genome Biology, 7(Suppl 1), S6. <https://doi.org/10.1186/gb-2006-7-s1-s6>.                                                             | Comparative                | Vertebrates            |
 | 2006 | N_Scan_EST                                                                | Wei, C., & Brent, M. R. (2006). Using ESTs to improve the accuracy of de novo gene prediction. BMC Bioinformatics, 7, 327. <https://doi.org/10.1186/1471-2105-7-327>.                                                                                        | Comparative + Evidence     |                        |
 | 2006 | TWINSCAN_EST                                                              | Wei, C., & Brent, M. R. (2006). Using ESTs to improve the accuracy of de novo gene prediction. BMC Bioinformatics, 7, 327. <https://doi.org/10.1186/1471-2105-7-327>.                                                                                        | Comparative + Evidence     |                        |
 | 2007 | Contrast                                                                  | Gross, S. S., Do, C. B., Sirota, M., & Batzoglou, S. (2007). CONTRAST: A discriminative, phylogeny-free approach to multiple informant de novo gene prediction. Genome Biology, 8(12), R269. <https://doi.org/10.1186/gb-2007-8-12-r269>.                    | Comparative                |                        |

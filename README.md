@@ -1,18 +1,17 @@
-# Gene Prediction
+# **Gene Annotation**
 
-Gene prediction is a fundamental task in bioinformatics that involves identifying regions of genomic DNA that encode genes. With years of experience in this field, I’ve worked extensively with various computational methods and algorithms, such as Hidden Markov Models (HMMs), neural networks, and machine learning techniques, to improve the accuracy of gene prediction. This involves analyzing DNA sequences to locate coding regions, identify start and stop codons, predict exon-intron boundaries, and annotate genes in both prokaryotic and eukaryotic genomes. My work often integrates data from multiple sources, including RNA-seq and comparative genomics, to refine predictions and uncover novel genes, ultimately contributing to a deeper understanding of genomic function and structure.
+Gene annotation is the process of identifying and describing the locations and functions of genes within a genome. It involves assigning biological information to raw DNA sequences, translating these sequences into meaningful insights about gene structures, functions, and regulatory elements.
 
+## **Topics**
 
-## Structure:
-
-- [Introduction](Introduction.md)
-- [Bioinformatics and Predictions](Bioinformatics_and_Predictions.md)
-- [Small Scale Examples](Small_scale_examples.md)
-- [Large Scale Examples](Large_scale_examples.md)
+- [Introduction](markdown/Introduction_to_Gene_Prediction.md)
+- [Bioinformatics and Predictions](markdown/Bioinformatics_and_Predictions.md)
+- [Small Scale Examples](markdown/Small_Scale_Examples.md)
+- [Large Scale Examples](markdown/Large_Scale_Examples.md)
 - List of softwares:
-  - [Ab initio Prediction Softwares](Ab_initio_prediction_softwares.md)
-  - [Homology Based Prediction Softwares](Gene_Prediction/Homology_based_prediction_softwares.md)
-  - [Integrated Prediction Softwares](Integrated_prediction_softwares.md)
+  - [Ab initio Prediction Softwares](markdown/Ab_Initio_Gene_Prediction_List.md)
+  - [Homology Based Prediction Softwares](markdown/Homology_Based_Gene_Prediction_List.md)
+  - [Integrated Prediction Softwares](markdown/Integrated_Based_Gene_Prediction_List.md)
     - Combined Based Gene Prediction 
     - Pipeline Based Gene Prediction 
     

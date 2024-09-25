@@ -16,7 +16,7 @@ bibliography: references.bib
 
 Gene prediction is a fundamental aspect of bioinformatics and computational biology, involving the identification and annotation of genes within large, contiguous sequences of DNA. As a fundamental step in genome analysis, gene prediction enables the discovery of gene products, such as RNA, proteins, and other functional elements like regulatory regions. The gene annotation phase helps us describe and understand the genetic profile of organisms from their bare sequences.
 
-![The NCBI Eukaryotic Genome Annotation Pipeline](images/Pipeline_sm_ncRNA_CAGE_80pct.png)
+![The NCBI Eukaryotic Genome Annotation Pipeline](img/Pipeline_sm_ncRNA_CAGE_80pct.png)
 
 ------------------------------------------------------------------------
 

@@ -11,7 +11,7 @@ regulatory regions. The gene annotation phase helps us describe and
 understand the genetic profile of organisms from their bare sequences.
 
 <figure>
-<img src="images/Pipeline_sm_ncRNA_CAGE_80pct.png"
+<img src="img/Pipeline_sm_ncRNA_CAGE_80pct.png"
 alt="The NCBI Eukaryotic Genome Annotation Pipeline" />
 <figcaption aria-hidden="true">The NCBI Eukaryotic Genome Annotation
 Pipeline</figcaption>

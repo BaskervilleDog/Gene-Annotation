@@ -18,8 +18,6 @@ Gene prediction is a fundamental aspect of bioinformatics and computational biol
 
 ![The NCBI Eukaryotic Genome Annotation Pipeline](images/Pipeline_sm_ncRNA_CAGE_80pct.png)
 
-![The NCBI Eukaryotic Genome Annotation Pipeline](images/Pipeline_sm_ncRNA_CAGE_80pct-02.png)
-
 ------------------------------------------------------------------------
 
 Historically, gene discovery methodologies were predominantly based on laboratory experimentation. Although these approaches provided valuable insights, they were time-intensive and costly. In recent years, such methods have been increasingly supplanted by computational algorithms designed to compare and predict gene sequences and their functions. The advent of high-throughput sequencing technologies, coupled with advances in computational power and algorithm development, has transformed gene annotation into a primarily computational endeavor.

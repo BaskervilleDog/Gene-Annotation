@@ -4,6 +4,8 @@ author: "Gianlucca de Urzêda Alves"
 date: "2024-09-25"
 output:
   pdf_document: default
+  md_document:
+    variant: markdown_github
   html_document: default
 ---
 

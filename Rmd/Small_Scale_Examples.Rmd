@@ -2,9 +2,10 @@
 author: "Gianlucca de Urzêda Alves"
 date: "2024-09-25"
 output:
+  md_document:
+    variant: markdown_github
   pdf_document: default
-  html_document:
-    df_print: paged
+  html_document: default
 ---
 
 # Homology based approach as example

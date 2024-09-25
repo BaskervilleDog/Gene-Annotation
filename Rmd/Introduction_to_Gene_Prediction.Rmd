@@ -3,6 +3,7 @@ title: "Introduction to Gene Prediction"
 author: "Gianlucca de Urzêda Alves"
 date: "2024-09-25"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 bibliography: references.bib

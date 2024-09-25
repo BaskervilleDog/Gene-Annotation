@@ -3,6 +3,7 @@ title: "Ab Initio Gene Prediction Software List"
 author: "Gianlucca de Urzêda Alves"
 date: "2024-09-25"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 ---
@@ -14,7 +15,7 @@ output:
 ## Eukaryotes
 
 | Year | Tool Name                 | Publication                                                                                                                                                                                                                                                                                                                                                                 | Method                                                                           | Organism                     |
-|:----------|:----------|:-----------------------------|:----------|:----------|
+|:------------|:------------|:----------------------|:------------|:------------|
 | 1994 | GeneLang                  | Dong, S., & Searls, D. B. (1994). Gene structure prediction by linguistic methods. Genomics, 23(3), 540--551. <https://doi.org/10.1006/geno.1994.1541>.                                                                                                                                                                                                                     | Linguistic method, Hidden Markov Model, Dynamic Programming, Weight Array Matrix | Eukaryotes                   |
 | 1995 | Fgeneh / GeneFinder       | Solovyev, V. V., Salamov, A. A., & Lawrence, C. B. (1995). Identification of human gene structure using linear discriminant functions and dynamic programming. Proceedings. International Conference on Intelligent Systems for Molecular Biology, 3, 367--375.                                                                                                             | Hidden Markov Model, Dynamic Programming, Linear Discriminant Analysis           | *Homo sapiens*               |
 | 1997 | HMMGene                   | Krogh, A. (1997). Two methods for improving performance of an HMM and their application for gene finding. Proceedings. International Conference on Intelligent Systems for Molecular Biology, 5, 179--186.                                                                                                                                                                  | Hidden Markov Model Conditional Random Field                                     | Vertebrates and *C. elegans* |
@@ -31,7 +32,7 @@ output:
 ## Prokaryotes
 
 | Year | Tool Name                                                         | Publication                                                                                                                                                                                                                                                                                        | Method                                    | Organism              |
-|:----------|:----------|:---------------------------|:----------|:----------|
+|:------------|:------------|:---------------------|:------------|:------------|
 | 1998 | GeneMark.hmm                                                      | Lukashin, A. V., & Borodovsky, M. (1998). GeneMark.hmm: New solutions for gene finding. Nucleic Acids Research, 26(4), 1107--1115. <https://doi.org/10.1093/nar/26.4.1107>.                                                                                                                        | Hidden Markov Model                       | Prokaryotes / Archaea |
 | 2001 | GeneHacker Plus                                                   | Yada, T., Totoki, Y., Takagi, T., & Nakai, K. (2001). A novel bacterial gene-finding system with improved accuracy in locating start codons. DNA Research: An International Journal for Rapid Publication of Reports on Genes and Genomes, 8(3), 97--106. <https://doi.org/10.1093/dnares/8.3.97>. | Hidden Markov Model                       | Prokaryotes           |
 | 2001 | GeneMarkS                                                         | Besemer, J., Lomsadze, A., & Borodovsky, M. (2001). GeneMarkS: A self-training method for prediction of gene starts in microbial genomes. Implications for finding sequence motifs in regulatory regions. Nucleic Acids Research, 29(12), 2607--2618. <https://doi.org/10.1093/nar/29.12.2607>.    | Hidden Markov Model                       | Prokaryotes           |
@@ -48,7 +49,7 @@ output:
 ## Virus
 
 | Year | Tool Name                             | Publication                                                                                                                                                                                                              | Method                    | Organism                       |
-|:----------|:----------|:---------------------------|:----------|:----------|
+|:------------|:------------|:---------------------|:------------|:------------|
 | 2003 | GeneMarkS (virus version)             | Mills, R., Rozanov, M., Lomsadze, A., Tatusova, T., & Borodovsky, M. (2003). Improving gene annotation of complete viral genomes. Nucleic Acids Research, 31(23), 7041--7055. <https://doi.org/10.1093/nar/gkg878>.      | Hidden Markov Model       | Viruses                        |
 | 2006 | ZCURVE_V                              | Guo, F.-B., & Zhang, C.-T. (2006). ZCURVE_V: A new self-training system for recognizing protein-coding genes in viral and phage genomes. BMC Bioinformatics, 7(1), 9. <https://doi.org/10.1186/1471-2105-7-9>.           | Z-curve                   | Viruses                        |
 | 2007 | GLIMMER3                              | Delcher, A. L., Bratke, K. A., Powers, E. C., & Salzberg, S. L. (2007). Identifying bacterial genes and endosymbiont DNA with Glimmer. Bioinformatics, 23(6), 673--679. <https://doi.org/10.1093/bioinformatics/btm009>. | Interpolated Markov Model | Bacteria, Archaea, and Viruses |
@@ -59,7 +60,7 @@ output:
 ## Metagenome
 
 | Year | Tool Name    | Publication                                                                                                                                                                                                   | Method                 | Organism    |
-|:---------|:---------|:-------------------------------|:---------|:---------|
+|:-----------|:-----------|:------------------------|:-----------|:-----------|
 | 2006 | Metagene     | Noguchi, H., Park, J., & Takagi, T. (2006). MetaGene: Prokaryotic gene finding from environmental genome shotgun sequences. Nucleic Acids Research, 34(19), 5623--5630. <https://doi.org/10.1093/nar/gkl723>. |                        | Metagenomes |
 | 2010 | FragGeneScan | Rho, M., Tang, H., & Ye, Y. (2010). FragGeneScan: Predicting genes in short and error-prone reads. Nucleic Acids Research, 38(20), e191. <https://doi.org/10.1093/nar/gkq747>.                                | Hidden Markov Model    | Metagenomes |
 | 2010 | MetaGeneMark | Zhu, W., Lomsadze, A., & Borodovsky, M. (2010). Ab initio gene identification in metagenomic sequences. Nucleic Acids Research, 38(12), e132. <https://doi.org/10.1093/nar/gkq275>.                           | Hidden Markov Model    | Metagenomes |
